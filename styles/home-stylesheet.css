@@ -24,11 +24,11 @@
         text-wrap: wrap;
         color: rgb(40, 40, 40);
     }
-    .content p a {
+    .content a {
         font-style: italic;
         color: rgb(20, 50, 95);
     }
-    .content p a:hover {
+    .content a:hover {
         color: rgb(0, 56, 147);
     }
     .content h2 {
@@ -37,7 +37,17 @@
         text-align: left;
         padding: 0 7.5%;
     }
+    .content h3 {
+        margin-top: 80px;
+        font-size: 30px;
+        text-align: center;
+        padding: 0 7.5%;
+    }
     .content #contribution {
         padding-top: 250px;
+    }
+    .content img {
+        margin-left: 15%;
+        width: 75%;
     }
 /** INDEX STYLING */
